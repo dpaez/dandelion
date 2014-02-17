@@ -1,0 +1,17 @@
+extends ../layout
+
+block header
+  div.header
+    div.logo
+
+    div.top_bar
+      span.post_type_icon :D
+      span.post_type_icon :X
+      span.post_type_icon :O
+
+block content
+  nav#editor-list
+  section#editor-article
+
+  include ../../public/javascripts/templates/editor_article_preview
+  include ../../public/javascripts/templates/editor_main

@@ -1,0 +1,31 @@
+script(id="editor_edit_tpl", type="text/template")
+  h1 Create your drafts!
+
+  a(href='#') test link
+
+  article.article_wip
+    form#content-edit
+      div.container
+        label
+          <% if (title) { %>
+          input(id='article-title', type="text", value!="<%= title %>", class="editable", autofocus)
+          <% } else { %>
+          input(id='article-title', type="text", value='Your title...', class="editable", autofocus)
+          <% } %>
+        label
+          textarea#whitepage.editable
+            <% if (content) { %>
+            |<%= content %>
+            <% } %>
+      div.extra
+        div
+          button#mark-it Preview
+        div.status
+          p some status here
+        div.more
+          button#other-articles Manage Articles
+
+    div#draft-preview.invisible
+
+
+

@@ -1,0 +1,34 @@
+{
+  "name": "dandelion",
+  "version": "0.0.1",
+  "dependencies": {
+    "marked": null,
+    "jquery": null,
+    "backbone-amd": null,
+    "underscore-amd": null,
+    "requirejs": null,
+    "requirejs-text": null,
+    "moment": ">=2.0.0"
+  },
+  "authors": [
+    "Diego Paez <paez.di@gmail.com>"
+  ],
+  "description": "A simple editor for markdown-like text.",
+  "main": "public/javascripts/main.js",
+  "keywords": [
+    "editor",
+    "tool",
+    "writing",
+    "markdown-like"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/vendors",
+    "test",
+    "tests"
+  ]
+}

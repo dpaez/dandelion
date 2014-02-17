@@ -1,0 +1,10 @@
+script(id="editor_article_tpl", type="text/template")
+  a(href!="#edit/<%= perma %>", title!="<%= title %>")
+    span <%= title %>
+    p
+      | Last edit was
+      time(datetime)  <%= lastEdit %>
+
+
+
+
