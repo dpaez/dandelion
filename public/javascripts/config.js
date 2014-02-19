@@ -1,11 +1,11 @@
 require.config({
 
   paths:{
-    "jquery": "/vendors/jquery/jquery",
+    "jquery": "/vendors/jquery/dist/jquery",
     "marked": "/vendors/marked/lib/marked",
     "underscore": "/vendors/underscore-amd/underscore",
     "backbone": "/vendors/backbone-amd/backbone",
-    "dualStorage": "/vendors/Backbone.dualStorage-master/backbone.dualstorage"
+    "dualStorage": "/vendors/Backbone.dualStorage/backbone.dualstorage"
   },
 
   shim:{

@@ -1,4 +1,4 @@
-doctype 5
+doctype html
 html
   head
     meta(charset="utf-8")
@@ -7,21 +7,18 @@ html
     title= locals.title
     link(rel='stylesheet', href='/stylesheets/basic.css', media="screen")
     link(rel='stylesheet', href='/stylesheets/super.css', media="screen and (max-device-width: 480px)")
-
   body(role="application")
     block header
     block content
     block footer
 
-    script(data-main="/javascripts/config.js", src="/vendors/requirejs/require.js")
-    script(type='text/javascript')
-      define("bootstrap", [], function() {
-        var data = !{locals.data};
-        return function(myArticles) {
-          myArticles.reset(data);
-        };
-      });
-      require(["main"]);
+    script(data-main="/javascripts/config.js", src="/vendors/requirejs/require.js").
 
-
-
+    script().
+      require( ["main"] );
+      //- define("bootstrap", [], function() {
+      //-   var data = {locals.data};
+      //-   return function( myArticles ){
+      //-     myArticles.reset( data );
+      //-   };
+      //- });

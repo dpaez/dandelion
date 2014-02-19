@@ -8,7 +8,8 @@
     "underscore-amd": null,
     "requirejs": null,
     "requirejs-text": null,
-    "moment": ">=2.0.0"
+    "moment": ">=2.0.0",
+    "Backbone.dualStorage": "~1.2.0"
   },
   "authors": [
     "Diego Paez <paez.di@gmail.com>"
