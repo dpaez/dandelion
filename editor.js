@@ -39,7 +39,7 @@ exports.dashboard = function (req, res, next){
   res.render('drafts', {
     locals:{
       title:'All your articles',
-      data: JSON.stringify(articles)
+      // data: JSON.stringify(articles)
     }
   });
 };

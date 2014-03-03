@@ -1,25 +1,14 @@
-@media only screen {
-  body {
-    padding: 50px;
-    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  }
-  a {
-    color: #f00;
-  }
-  .invisible {
-    visibility: hidden;
-    display: none;
-  }
-  .invisible > * {
-    display: inherit;
-  }
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
-/*
-@media only screen
-  body
-    font: 20px "Times New Roman", Arial, sans-serif
-
-  a
-    color: green
-
-*/
+a {
+  color: light-blue;
+}
+.invisible {
+  visibility: hidden;
+  display: none;
+}
+.invisible > * {
+  display: inherit;
+}
